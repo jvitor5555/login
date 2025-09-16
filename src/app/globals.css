@@ -1,2 +1,28 @@
-@import "tailwindcss";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+:root {
+    --cor-fundo: #ffffff;
+    --cor-texto: #000000;
+    --cor-principal: #60ace6;
+}
+
+[data-tema="escuro"] {
+    --cor-fundo: #1e1e1e;
+    --cor-texto: #ffffff;
+    --cor-principal: #002b5f;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--cor-principal);
+}

@@ -1,0 +1,143 @@
+.container-principal{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.conteudo-principal{
+    flex: 1;
+    padding: 90px 30px 40px 30px;
+}
+
+.secao-administrador {
+    background-color: #1e3a8a;
+    /* azul principal */
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.secao-administrador h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.secao-administrador p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.secao-relatorios {
+    background-color: #2563eb;
+    /* azul um pouco mais claro que a seção admin */
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.secao-relatorios h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.secao-relatorios p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.secao-usuarios {
+    background-color: #3b82f6;
+    /* outro tom de azul para diferenciar */
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.secao-usuarios h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.secao-usuarios p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.secao-alertas {
+    background-color: #1e40af;
+    /* azul mais escuro */
+    color: #fff;
+    padding: 90px 30px 40px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.secao-alertas h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.secao-alertas p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.secao-configuracoes {
+    background-color: #2563eb;
+    /* azul médio */
+    color: #fff;
+    padding: 90px 30px 40px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.secao-configuracoes h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.secao-configuracoes p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.secao-logs {
+    background-color: #3b82f6;
+    /* azul claro */
+    color: #fff;
+    padding: 90px 30px 40px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.secao-logs h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.secao-logs p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}

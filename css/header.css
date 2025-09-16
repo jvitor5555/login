@@ -1,0 +1,143 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    gap: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    padding: 10px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-bottom: 30px;
+}
+
+.bt-container-mensagem {
+    flex: 1;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.bt-container-mensagem h1 {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+}
+
+.bt-container-mensagem span {
+    color: #007BFF;
+}
+
+.bt-container-relativo {
+    max-width: 400px;
+    flex: 1;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.bt-container-pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-right: 30px;
+}
+
+.bt-container-pesquisa input {
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+    padding-left: 10px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.5px;
+    outline: none;
+}
+
+.bt-container-pesquisa input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.bt-container-links {
+    flex: 1;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+
+.bt-container-links a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.5px;
+    color: black;
+    transition: 0.3s;
+}
+
+.bt-container-links a:hover {
+    cursor: pointer;
+    color: #007BFF;
+    transform: scale(1.1);
+}
+
+.bt-container-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.bt-container-imagem img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 50px;
+}
+
+.bt-container-imagem img:hover {
+    cursor: pointer;
+}
+
+/* Header Claro */
+.header-claro {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.header-claro a {
+    color: #000000;
+}
+
+.header-claro .bt-container-mensagem span {
+    color: #007BFF;
+    /* mantém destaque azul */
+}
+
+.header-claro .bt-container-pesquisa input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Header Escuro */
+.header-escuro {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.header-escuro a {
+    color: #FFFFFF;
+}
+
+.header-escuro .bt-container-mensagem span {
+    color: #00BFFF;
+    /* azul mais claro para contraste no escuro */
+}
+
+.header-escuro .bt-container-pesquisa input:focus {
+    border-color: #00BFFF;
+    box-shadow: 0 0 5px rgba(0, 191, 255, 0.5);
+}
